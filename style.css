@@ -2,10 +2,41 @@
 *{
     box-sizing: border-box;
 }
+
+a{
+    text-decoration: none;
+
+}
+li{
+    list-style-type: none;
+}
 body{
     margin:0;
 }
-
+.main-header{
+    width: 100%;
+    background: linear-gradient(90deg, lightcoral, darkgray);
+    min-height: 50px;
+    padding: 10px;
+    position: fixed;
+    text-align: center;
+}
+.main-name{
+    margin-right: auto;
+    display: block;
+}
 .main-nav{
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    font-weight: 700;
+    padding:0 20px;
+
 
 }
+.main-nav li{
+    padding: 10px;
+    color: white;
+}
+
