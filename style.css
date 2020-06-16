@@ -81,6 +81,7 @@ body{
     font-family: Georgia, sans-serif;
     text-transform: uppercase;
     padding-bottom: 20px;
+    font-weight: 600;
 }
 .portfolio-img{
     display: block;
