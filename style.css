@@ -29,8 +29,13 @@ body{
     margin-right: auto;
     display: block;
     font-size: 1.25em;
-
+    border: 1px solid black;
+    padding: 20px 80px;
+    background: lightcoral;
+    text-align: center;
 }
+
+
 /*.main-nav{
     max-width: 1200px;
     display: flex;
@@ -43,12 +48,14 @@ body{
     padding: 10px 15px;
     display: block;
     text-align: center;
-    font-weight: 600;
+    font-weight: normal;
     font-family: sans-serif;
 }
 .main-nav li{
-    padding: 10px;
-
+    padding: 10px 80px;
+    border: 1px solid white;
+    background: beige;
+    text-transform: uppercase;
 }
 /* second header div*/
 .second-header{
@@ -56,12 +63,21 @@ body{
 }
 .image{
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+    margin: auto;
+    width: 70%;
 }
 
 .paragraph{
+    text-align: center;
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-bottom: 51px;
+    padding-left: 30px;
+}
+
+/* main page*/
+
+.portfolio-name{
     text-align: center;
 
 }
