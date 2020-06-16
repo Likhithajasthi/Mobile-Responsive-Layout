@@ -79,7 +79,7 @@ body{
     text-align: center;
     font-family: Georgia, sans-serif;
     text-transform: capitalize;
-    padding-bottom: 20px;
+    padding-top:20px;
     font-weight: 500;
 }
 .portfolio-img{
@@ -91,7 +91,9 @@ body{
     text-align: center;
     font-family: Georgia, sans-serif;
     text-transform: uppercase;
-    padding-bottom: 20px;
+    padding-top: 50px;
+    padding-bottom: 40px;
     font-weight: 600;
+
 }
 
