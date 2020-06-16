@@ -26,7 +26,6 @@ body{
     text-align: center;
 }*/
 .main-name{
-    margin-right: auto;
     display: block;
     font-size: 1.25em;
     border: 1px solid black;
@@ -49,11 +48,11 @@ body{
     display: block;
     text-align: center;
     font-weight: normal;
-    font-family: sans-serif;
+    font-family: Georgia, sans-serif;
 }
 .main-nav li{
-    padding: 10px 80px;
-    border: 1px solid white;
+    padding: 15px 80px;
+    border: 2px solid white;
     background: beige;
     text-transform: uppercase;
 }
@@ -79,6 +78,13 @@ body{
 
 .portfolio-name{
     text-align: center;
-
+    font-family: Georgia, sans-serif;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+.portfolio-img{
+    display: block;
+    margin: auto;
+    width: 80%;
 }
 
