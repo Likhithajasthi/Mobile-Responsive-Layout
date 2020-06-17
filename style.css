@@ -122,19 +122,19 @@ body{
     padding: 10px;
 
 }
+.label{
+    
+}
 /* Footer*/
 .footer{
-    background: lightyellow;
-    padding: 10px;
+    display: flex;
+    justify-content: space-around;
 
 }
-.footer-name{
-    display: block;
-    margin-right: 30%;
-    padding: 10px;
-}
-.footer ul li{
-    display: inline;
-    font-size: 1em;
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
 }
 
