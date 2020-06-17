@@ -63,7 +63,7 @@ body{
 .image{
     display: block;
     margin: auto;
-    width: 70%;
+    width: 60%;
 }
 
 .paragraph{
@@ -74,6 +74,10 @@ body{
 }
 
 /* main page*/
+.image-width{
+    max-width: 100%;
+    height: auto;
+}
 
 .portfolio-name{
     text-align: center;
@@ -94,6 +98,43 @@ body{
     padding-top: 50px;
     padding-bottom: 40px;
     font-weight: 600;
+}
+/* Contact details*/
+.contact-main{
+    padding-bottom: 60px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid black;
+}
+.contact-heading{
+    text-align: center;
+    font-family: Georgia, sans-serif;
+    text-transform: uppercase;
+    padding-top:20px;
+    padding-bottom: 10px;
+    font-weight: 600;
+}
+.contact-paragraph{
+    padding:10px;
+    text-align: center;
+}
+.contact-details{
+    text-align: center;
+    padding: 10px;
 
+}
+/* Footer*/
+.footer{
+    background: lightyellow;
+    padding: 10px;
+
+}
+.footer-name{
+    display: block;
+    margin-right: 30%;
+    padding: 10px;
+}
+.footer ul li{
+    display: inline;
+    font-size: 1em;
 }
 
