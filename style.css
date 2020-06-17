@@ -123,13 +123,15 @@ body{
 
 }
 .label{
-    
+
 }
 /* Footer*/
 .footer{
     display: flex;
     justify-content: space-around;
-
+    font-weight: 700;
+    padding: 40px;
+    background: bisque;
 }
 
 .clearfix::after{
@@ -137,4 +139,5 @@ body{
     display: table;
     clear: both;
 }
+@media
 
