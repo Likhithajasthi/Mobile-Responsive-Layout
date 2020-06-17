@@ -122,8 +122,9 @@ body{
     padding: 10px;
 
 }
-.label{
-
+label{
+    padding: 10px;
+    font-weight: 600;
 }
 /* Footer*/
 .footer{
@@ -139,5 +140,5 @@ body{
     display: table;
     clear: both;
 }
-@media
+
 
