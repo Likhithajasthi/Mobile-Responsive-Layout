@@ -134,11 +134,19 @@ label{
     padding: 40px;
     background: bisque;
 }
-
 .clearfix::after{
     content: "";
     display: table;
     clear: both;
 }
+/**/
+@media (min-width: 769px){
+
+
+
+
+
+    }
+
 
 
