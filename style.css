@@ -140,13 +140,26 @@ label{
     clear: both;
 }
 /**/
-@media (min-width: 769px){
-
-
-
-
-
+@media (min-width: 768px) {
+    .main-nav {
+        max-width: 1200px;
+        display: flex;
+        justify-content: space-around;
+        margin: 0 auto;
+        font-weight: 700;
+        padding: 0 20px;
     }
+
+    .second-header {
+        width: 100%;
+    }
+
+    .image {
+        float: right;
+    }
+}
+
+
 
 
 
