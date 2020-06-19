@@ -142,15 +142,16 @@ label{
 /**/
 @media (min-width: 768px) {
     .main-nav {
-        max-width: 1200px;
-        display: ;
-        justify-content: space-around;
-        margin: 0 auto;
+        max-width: 100%;
+        display: block;
+        text-align:center;
         font-weight: 700;
-        padding: 0 20px;
+        padding:10px;
     }
     .main-nav li{
-
+         display: inline-block;
+         text-align: center;
+         padding: 10px;
     }
 
     .second-header {
@@ -159,10 +160,10 @@ label{
         margin: 0 auto;
     }
     .paragraph{
-        text-align: justify;
-        padding: 10px;
-        margin-top: 10px;
-        margin-bottom: 40px
+        float: left;
+        max-width: 60%;
+        padding: 0 10px;
+        margin: 30px 0;
     }
 
     .image {
@@ -173,12 +174,20 @@ label{
     .main-container{
 
     }
-    .first-container, second-container{
+    .first-container,
+    .third-container,
+    .fifth-container{
         width: 50%;
-        padding:20px;
-        margin:0;
+        padding:0 10px;
         float: left;
     }
+    .second-container,
+    .fourth-container,
+    .sixth-container{
+        width: 50%;
+        padding:0 10px;
+        float: right;
+}
 }
 
 
