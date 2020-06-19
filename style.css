@@ -143,19 +143,41 @@ label{
 @media (min-width: 768px) {
     .main-nav {
         max-width: 1200px;
-        display: flex;
+        display: ;
         justify-content: space-around;
         margin: 0 auto;
         font-weight: 700;
         padding: 0 20px;
     }
+    .main-nav li{
+
+    }
 
     .second-header {
-        width: 100%;
+        padding:40px;
+        max-width: 1150px;
+        margin: 0 auto;
+    }
+    .paragraph{
+        text-align: justify;
+        padding: 10px;
+        margin-top: 10px;
+        margin-bottom: 40px
     }
 
     .image {
         float: right;
+        max-width:40%;
+        padding:10px 20px;
+    }
+    .main-container{
+
+    }
+    .first-container, second-container{
+        width: 50%;
+        padding:20px;
+        margin:0;
+        float: left;
     }
 }
 
