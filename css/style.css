@@ -174,16 +174,12 @@ label{
     .main-container{
 
     }
-    .first-container,
-    .third-container,
-    .fifth-container{
+    .container-left{
         width: 50%;
         padding:0 10px;
         float: left;
     }
-    .second-container,
-    .fourth-container,
-    .sixth-container{
+    .container-right{
         width: 50%;
         padding:0 10px;
         float: right;
