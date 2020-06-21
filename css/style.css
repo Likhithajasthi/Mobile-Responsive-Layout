@@ -155,7 +155,7 @@ label{
     }
 
     .second-header {
-        padding:40px;
+        /*padding:40px;*/
         max-width: 1150px;
         margin: 0 auto;
     }
@@ -172,7 +172,9 @@ label{
         padding:10px 20px;
     }
     .main-container{
-
+       width: 100%;
+        max-width: 1150px;
+        margin: 20px;
     }
     .container-left{
         width: 50%;
