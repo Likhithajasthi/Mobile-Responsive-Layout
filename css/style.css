@@ -114,8 +114,9 @@ body{
     font-weight: 600;
 }
 .contact-paragraph{
-    padding:10px;
+    padding: 30px;
     text-align: center;
+    margin: 40px;
 }
 .contact-details{
     text-align: center;
@@ -190,9 +191,42 @@ label{
         padding:0 10px;
         float: right;
 }
+    .home-footer {
+        display: none;
+    }
+
+    .nav-bottom {
+        float: right;
+        display: block;
+    }
+
+    .nav-bottom li {
+        display: inline-block;
+        text-align: center;
+    }
 }
 @media (min-width: 1024px) {
-    .
+    .main-name {
+        float: left;
+    }
+
+    .main-nav {
+        float: right;
+    }
+
+    .paragraph {
+        margin: 50px 0;
+    }
+
+    .second-container,
+    .third-container,
+    .fourth-container,
+    .fifth-container,
+    .sixth-container,
+    .first-container {
+        float: left;
+        max-width: 33%;
+    }
 }
 
 
