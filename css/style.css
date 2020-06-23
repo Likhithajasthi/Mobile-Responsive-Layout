@@ -3,11 +3,11 @@
     box-sizing: border-box;
 }
 
-h1,
-h4,
 li {
     font-family: Montserrat, sans-serif;
     font-weight: bold;
+    list-style-type: none;
+    padding: .5em 0;
 }
 h2,
 h3{
@@ -28,11 +28,6 @@ p {
     text-align: center;
 }
 
-li {
-    list-style-type: none;
-    padding: .5em 0;
-}
-
 a {
     text-decoration: none;
     color: #696969;
@@ -44,28 +39,26 @@ img {
 
 /* ID's*/
 #Contact,
-#Portfolio {
+#Portfolio{
     font-size: 1.3em;
     text-transform: uppercase;
     color: black;
     text-align: center;
     padding: 20px 0;
+    margin-top: 40px;
     margin-bottom: 25px;
+    font-weight: bold;
+
 }
 
-/* main Navigation*/
-/*.main-header{
-    padding-left: 1em;
-    padding-right: 1em;
-}*/
 .main-name{
     font-size: 2em;
     margin: 0;
     color: black;
     text-align: center;
     font-family: 'Muli', sans-serif;
+    background-color: lightyellow;
 }
-
 .nav-bottom{
     display: none;
 }
@@ -99,19 +92,16 @@ img {
 }
 
 /* second header div*/
+
 .second-header{
     text-align: center;
     margin-top: 15px;
     padding-bottom: 15px;
+    background-color: lavender;
 }
 .image{
     padding: 30px 0;
 }
-.main-name,
-.second-header{
-    background-color: lavender;
-}
-
 
 /* main page*/
 .image-width{
@@ -121,21 +111,15 @@ img {
 
 .portfolio-name{
     padding: 20px 0;
-    margin-top: 20px;
+    margin-top: 40px;
+    margin-bottom: 20px;
 }
 .portfolio-img{
     display: block;
     margin: auto;
     width: 80%;
 }
-.portfolio-heading{
-    text-align: center;
-    font-family: Georgia, sans-serif;
-    text-transform: uppercase;
-    padding-top: 50px;
-    padding-bottom: 40px;
-    font-weight: 600;
-}
+
 /* Contact details*/
 .contact-main{
     background-color:lightyellow;
@@ -154,7 +138,10 @@ label{
 /* footer */
 .footer-name{
     float: left;
-    margin-top: 5px;
+    margin-top: 15px;
+}
+.main-footer{
+    padding:10px;
 }
 .home-footer{
     float: right;
@@ -176,7 +163,7 @@ label{
     }
     .main-name{
         margin-top: 15px;
-        padding: 15px 0;
+        padding: 20px 0;
     }
     .main-nav {
         max-width: 100%;
@@ -202,7 +189,7 @@ label{
     .first-container,
     .third-container,
     .fifth-container{
-        width: 50%;
+        width: 49%;
         padding:0 10px;
         float: left;
     }
