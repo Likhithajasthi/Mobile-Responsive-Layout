@@ -1,77 +1,117 @@
 
-*{
+* {
     box-sizing: border-box;
 }
-/* main header div */
-.tag{
-    text-decoration: none;
+
+h1,
+h4,
+li {
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+}
+h2,
+h3{
+    text-align: center;
     color: black;
+    margin-top: 15px;
 }
-li{
+
+body {
+    margin: 0;
+}
+
+p {
+    font-family: Montserrat, sans-serif;
+    font-size: 1em;
+    padding: 1em;
+    line-height: 1.5;
+    text-align: center;
+}
+
+li {
     list-style-type: none;
+    padding: .5em 0;
 }
-body{
-    margin:0;
+
+a {
+    text-decoration: none;
+    color: #696969;
 }
-.main-header{
+
+img {
+    max-width: 100%;
+}
+
+/* ID's*/
+#Contact,
+#Portfolio {
+    font-size: 1.3em;
+    text-transform: uppercase;
+    color: black;
+    text-align: center;
+    padding: 20px 0;
+    margin-bottom: 25px;
+}
+
+/* main Navigation*/
+/*.main-header{
     padding-left: 1em;
     padding-right: 1em;
-}
-/*.main-header{
-    width: 100%;
-    background: linear-gradient(90deg, lightcoral, darkgray);
-    min-height: 50px;
-    padding: 10px;
-    position: fixed;
-    text-align: center;
 }*/
 .main-name{
-    display: block;
-    font-size: 1.25em;
-    border: 1px solid black;
-    padding: 20px 80px;
-    background: lightcoral;
+    font-size: 2em;
+    margin: 0;
+    color: black;
     text-align: center;
+    font-family: 'Muli', sans-serif;
 }
 
+.nav-bottom{
+    display: none;
+}
 
-/*.main-nav{
-    max-width: 1200px;
-    display: flex;
-    justify-content: space-around;
-    margin: 0 auto;
-    font-weight: 700;
-    padding:0 20px;
-}*/
 .main-nav{
-    padding: 10px 15px;
-    display: block;
-    text-align: center;
-    font-weight: normal;
-    font-family: Georgia, sans-serif;
+    padding-top: 15px;
+    padding-right: 40px;
 }
 .main-nav li{
-    padding: 15px 80px;
-    border: 2px solid white;
-    background: beige;
-    text-transform: uppercase;
+    margin: 5px;
+    background-color: lightpink;
 }
+.main-nav,
+.nav-bottom a:hover {
+    color:lightgrey;
+}
+.main-name a,
+.main-nav a,
+.nav-bottom a {
+    text-align: center;
+    display: block;
+    padding: 10px 15px;
+}
+.home-footer a,
+.footer-name,
+.main-nav a,
+.nav-bottom a {
+    font-size: 1em;
+    text-transform: uppercase;
+    color: slategray;
+}
+
 /* second header div*/
 .second-header{
-
+    text-align: center;
+    margin-top: 15px;
+    padding-bottom: 15px;
 }
 .image{
-    display: block;
-    margin: auto;
-    width: 60%;
+    padding: 30px 0;
+}
+.main-name,
+.second-header{
+    background-color: lavender;
 }
 
-.paragraph{
-    text-align: center;
-    padding:10px;
-    margin-top: 10px;
-    margin-bottom: 40px;
-}
 
 /* main page*/
 .image-width{
@@ -80,11 +120,8 @@ body{
 }
 
 .portfolio-name{
-    text-align: center;
-    font-family: Georgia, sans-serif;
-    text-transform: capitalize;
-    padding-top:20px;
-    font-weight: 500;
+    padding: 20px 0;
+    margin-top: 20px;
 }
 .portfolio-img{
     display: block;
@@ -101,22 +138,9 @@ body{
 }
 /* Contact details*/
 .contact-main{
-    padding-bottom: 60px;
-    margin-bottom: 20px;
-    border-bottom: 1px solid black;
-}
-.contact-heading{
-    text-align: center;
-    font-family: Georgia, sans-serif;
-    text-transform: uppercase;
-    padding-top:20px;
-    padding-bottom: 10px;
-    font-weight: 600;
-}
-.contact-paragraph{
-    padding: 30px;
-    text-align: center;
-    margin: 40px;
+    background-color:lightyellow;
+    margin-top: 20px;
+    padding-bottom: 15px;
 }
 .contact-details{
     text-align: center;
@@ -127,21 +151,33 @@ label{
     padding: 10px;
     font-weight: 600;
 }
-/* Footer*/
-.footer{
-    display: flex;
-    justify-content: space-around;
-    font-weight: 700;
-    padding: 40px;
-    background: bisque;
+/* footer */
+.footer-name{
+    float: left;
+    margin-top: 5px;
 }
+.home-footer{
+    float: right;
+}
+/* Clearfix */
+
 .clearfix::after{
     content: "";
     display: table;
     clear: both;
 }
-/**/
+
+/* media Queries*/
 @media (min-width: 768px) {
+    .image{
+        float: right;
+        max-width: 40%;
+        padding: 0 10px;
+    }
+    .main-name{
+        margin-top: 15px;
+        padding: 15px 0;
+    }
     .main-nav {
         max-width: 100%;
         display: block;
@@ -159,18 +195,6 @@ label{
         /*padding:40px;*/
         max-width: 1150px;
         margin: 0 auto;
-    }
-    /*.paragraph{
-        text-align: center;
-        padding: 10px;
-        margin-top: 10px;
-        margin-bottom: 40px
-    }*/
-
-    .image {
-        float: right;
-        max-width:40%;
-        padding:10px 20px;
     }
     .main-container{
        width: 100%;
@@ -191,8 +215,7 @@ label{
         padding:0 10px;
         float: right;
 }
-    .home-footer {
-        display: none;
+    .tag{
     }
 
     .nav-bottom {
