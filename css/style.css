@@ -180,22 +180,20 @@ label{
     }
     .main-nav {
         max-width: 100%;
+        text-align: center;
         display: block;
-        text-align:center;
-        font-weight: 700;
-        padding:10px;
     }
     .main-nav li{
-         display: inline-block;
-         text-align: center;
-         padding: 10px;
+        display: inline-block;
+        text-align: center;
+    }
+    .about-me{
+        float: left;
+        max-width: 60%;
+        padding: 0 10px;
+        margin: 30px 0;
     }
 
-    .second-header {
-        /*padding:40px;*/
-        max-width: 1150px;
-        margin: 0 auto;
-    }
     .main-container{
        width: 100%;
         max-width: 1150px;
@@ -210,12 +208,13 @@ label{
     }
     .second-container,
     .fourth-container,
-    .sixth-container{
+    .sixth-container {
         width: 50%;
-        padding:0 10px;
+        padding: 0 10px;
         float: right;
-}
-    .tag{
+    }
+    .home-footer {
+        display: none;
     }
 
     .nav-bottom {
@@ -228,6 +227,7 @@ label{
         text-align: center;
     }
 }
+
 @media (min-width: 1024px) {
     .main-name {
         float: left;
@@ -235,10 +235,6 @@ label{
 
     .main-nav {
         float: right;
-    }
-
-    .paragraph {
-        margin: 50px 0;
     }
 
     .second-container,
