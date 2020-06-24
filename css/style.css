@@ -124,21 +124,21 @@ img {
 }
 .contact-details{
     text-align: center;
-    padding: 10px;
+    padding: 10px 0;
 
 }
 label{
-    padding: 10px;
+    padding-right: 5px;
     font-weight: 600;
+}
+.main-footer{
+    margin:20px 0;
 }
 /* footer */
 .footer-name{
     float: left;
-    margin-top: 15px;
 }
-.main-footer{
-    padding:10px;
-}
+
 .home-footer{
     float: right;
 }
@@ -188,6 +188,7 @@ label{
         width: 49%;
         padding:0 10px;
         float: left;
+        height: 350px;
     }
     .second-container,
     .fourth-container,
@@ -195,6 +196,18 @@ label{
         width: 50%;
         padding: 0 10px;
         float: right;
+        height: 350px;
+    }
+    .main-footer{
+        margin:0;
+    }
+    .footer-name{
+        margin:1.5em 0;
+        text-align: center;
+        display: block;
+        padding:10px;
+        font-family: Montserrat, sans-serif;
+        font-weight: bold;
     }
     .home-footer {
         display: none;
@@ -228,6 +241,7 @@ label{
     .first-container {
         float: left;
         max-width: 33%;
+        height:320px;
     }
 }
 
